@@ -1,0 +1,39 @@
+:root {
+    --background: #1A5C6E; /* Azul escuro da logo como fundo principal */
+    --foreground: #F5F5F5; /* Branco suave para texto principal */
+    --card: #377180; /* Azul um pouco mais claro para cards */
+    --card-foreground: #F5F5F5; /* Branco para texto em cards */
+    --popover: #134E5E; /* Azul mais escuro para popovers */
+    --popover-foreground: #F5F5F5; /* Branco para texto em popovers */
+    --primary: #3A8296; /* Azul médio para botões e elementos primários */
+    --primary-foreground: #F5F5F5; /* Branco para texto em elementos primários */
+    --secondary: #5A9FB0; /* Azul mais claro para elementos secundários */
+    --secondary-foreground: #1A5C6E; /* Azul escuro para texto em elementos secundários */
+    --muted: #A3C1C9; /* Tom de azul acinzentado para elementos menos destacados */
+    --muted-foreground: #1A5C6E; /* Azul escuro para texto em elementos muted */
+    --accent: #F5F5F5; /* Branco como acento */
+    --accent-foreground: #1A5C6E; /* Azul escuro para texto em acentos */
+    --destructive: #B22222; /* Vermelho para ações destrutivas (padrão) */
+    --destructive-foreground: #F5F5F5; /* Branco para texto em elementos destrutivos */
+    --border: #A3C1C9; /* Azul acinzentado para bordas */
+    --input: #F5F5F5; /* Branco para inputs */
+    --ring: #3A8296; /* Azul médio para anéis de foco */
+    --chart-1: #1A5C6E; /* Azul escuro para gráficos */
+    --chart-2: #3A8296; /* Azul médio para gráficos */
+    --chart-3: #5A9FB0; /* Azul claro para gráficos */
+    --chart-4: #A3C1C9; /* Azul acinzentado para gráficos */
+    --chart-5: #F5F5F5; /* Branco para gráficos */
+    --radius: 8px; /* Valor base para radius */
+    --radius-sm: calc(var(--radius) - 4px); /* 4px */
+    --radius-md: calc(var(--radius) - 2px); /* 6px */
+    --radius-lg: var(--radius); /* 8px */
+    --radius-xl: calc(var(--radius) + 4px); /* 12px */
+    --sidebar: #134E5E; /* Azul mais escuro para sidebar */
+    --sidebar-foreground: #F5F5F5; /* Branco para texto na sidebar */
+    --sidebar-primary: #3A8296; /* Azul médio para elementos primários na sidebar */
+    --sidebar-primary-foreground: #F5F5F5; /* Branco para texto em elementos primários na sidebar */
+    --sidebar-accent: #5A9FB0; /* Azul claro como acento na sidebar */
+    --sidebar-accent-foreground: #1A5C6E; /* Azul escuro para texto em acentos na sidebar */
+    --sidebar-border: #A3C1C9; /* Azul acinzentado para bordas na sidebar */
+    --sidebar-ring: #3A8296; /* Azul médio para anéis na sidebar */
+  }
