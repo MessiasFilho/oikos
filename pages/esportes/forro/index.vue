@@ -7,9 +7,7 @@
       </h2>
       
     </header>
-        <h3 class="w-full text-3xl font-bold text-gray-50 p-2 mb-8 text-center bg-[var(--primary)] rounded-b-xl">
-            Jiu-Jitsu
-        </h3>
+       
         <div class="flex sm:flex-row flex-col items-center justify-center mb-8 p-1">
 
             <div class="flex flex-col items-center justify-center mb-8 p-1">

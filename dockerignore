@@ -1,0 +1,36 @@
+# Ignora node_modules (será instalado dentro do container)
+node_modules/
+
+# Ignora pastas de cache e temporárias
+.nuxt/
+.output/
+dist/
+.cache/
+.temp/
+
+# Ignora arquivos de configuração local e ambiente
+.env
+.env.*
+*.local
+
+# Ignora arquivos de log e debug
+*.log
+*.log.*
+
+# Certifique-se de que assets/ não está sendo ignorado
+!assets/
+
+# Ignora arquivos do sistema e IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Ignora arquivos de versionamento (se não for necessário no build)
+.git/
+.gitignore
+
+# Ignora arquivos de teste e documentação
+test/
+tests/
+coverage/
+docs/

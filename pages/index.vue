@@ -38,7 +38,7 @@
         </div>
       </div>
     </section>
-    
+
     <section id="iniciativa" class="">
       <IniciativaComponet />
     </section>
@@ -54,11 +54,11 @@
             Cada projeto da Oikos é uma semente plantada em solo fértil: vidas. Com sua doação, podemos continuar
             expandindo nossas ações, alcançando mais comunidades e garantindo dignidade a quem mais precisa.
           </p>
-          <button
-            class="bg-[var(--accent)] text-[var(--accent-foreground)] font-bold py-3 px-8 rounded-xl shadow-md hover:bg-[var(--accent-foreground)] hover:text-[var(--accent)] transition-colors duration-200"
+          <a href="https://buy.stripe.com/eVa4kbbE71Lbgx26ou" target="_blank" rel="noopener noreferrer"
+            class="inline-block bg-[var(--accent)] text-[var(--accent-foreground)] font-bold py-3 px-8 rounded-xl shadow-md hover:bg-[var(--accent-foreground)] hover:text-[var(--accent)] transition-colors duration-200 text-center"
             aria-label="Faça sua doação">
             Faça sua doação
-          </button>
+          </a>
         </div>
       </div>
     </section>
@@ -134,7 +134,7 @@
           </article>
         </div>
       </div>
-    
+
     </section>
     <!-- Donation Section -->
 
@@ -154,6 +154,10 @@
 </template>
 
 <script lang="ts">
+
+function openDonationPage() {
+  window.open('https://buy.stripe.com/eVa4kbbE71Lbgx26ou', '_blank')
+}
 
 </script>
 

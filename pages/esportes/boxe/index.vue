@@ -4,7 +4,7 @@
      
       <header class="mb-10 text-center mt-4">
       <h2 class="text-4xl w-full font-extrabold text-[var(--primary-foreground)] border-b-4 border-[var(--accent)] inline-block pb-3 rounded-md shadow-md">
-        Jiu-Jitsu
+        Boxe Olímpico
       </h2>
       
     </header>
