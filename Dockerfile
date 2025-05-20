@@ -1,5 +1,5 @@
 # Estágio de construção (build)
-FROM node:20.10-alpine AS builder
+FROM node:20.11.1 AS builder
 
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY . .
 RUN yarn build
 
 # Estágio de execução (produção)
-FROM node:20.10-alpine
+FROM node:20.11.1
 
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
