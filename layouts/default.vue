@@ -134,29 +134,17 @@
                         <p><strong>Telefone:</strong> (85) 9866-3081 / (85) 8642-3749</p>
                     </address>
                 </div>
-                <!-- <div class="text-center md:text-left">
-                    <h4 class="text-xl font-semibold mb-4">Fale Conosco</h4>
-                    <form @submit.prevent="handleSubmit" class="space-y-4 max-w-sm mx-auto md:mx-0">
-                        <input type="email" placeholder="Seu e-mail" v-model="email" required
-                            class="w-full px-4 py-2 rounded-md border border-[var(--border)] bg-[var(--popover)] text-[var(--popover-foreground)] placeholder-[var(--muted-foreground)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)]" />
-                        <textarea placeholder="Sua mensagem" v-model="message" required rows="4"
-                            class="w-full px-4 py-2 rounded-md border border-[var(--border)] bg-[var(--popover)] text-[var(--popover-foreground)] placeholder-[var(--muted-foreground)] focus:outline-none focus:ring-2 focus:ring-[var(--accent)] resize-none"></textarea>
-                        <button type="submit"
-                            class="w-full bg-[var(--accent)] text-[var(--accent-foreground)] font-semibold py-2 rounded-md hover:bg-[var(--primary)] hover:text-[var(--primary-foreground)] transition-colors">
-                            Enviar
-                        </button>
-                    </form>
-                </div> -->
+             
             </div>
         </footer>
 
 
-        <MapsDialog endereço="fgdfg" />
+        <MapsDialog />
     </div>
 </template>
 
 
-<script setup lang="ts">
+<script lang="ts" setup>
 const isMenuOpen = ref(false);
 const email = ref('')
 const message = ref('')

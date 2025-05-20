@@ -153,9 +153,11 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 
-function openDonationPage() {
+// import Noticias from '~/components/Noticias.vue';
+
+const  openDonationPage = () =>  {
   window.open('https://buy.stripe.com/eVa4kbbE71Lbgx26ou', '_blank')
 }
 

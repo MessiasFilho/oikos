@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     shim: false,
   },
 
+  ssr: false,
   modules: ["shadcn-nuxt", "@vueuse/nuxt", "@pinia/nuxt"],
   shadcn: {
     /**
