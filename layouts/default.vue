@@ -131,7 +131,7 @@
                                 joseclaudioalbano@gmail.com
                             </a>
                         </p>
-                        <p><strong>Telefone:</strong> (85) 9866-3081 / (85) 8642-3749</p>
+                        <p><strong>Telefone:</strong> (85) 98663-0819 / (85) 98642-3749</p>
                     </address>
                 </div>
              
