@@ -81,7 +81,7 @@ const predios = ref([
     titulo: 'Atletas de jiu-jitsu',
     imagem: images.value[2],
     endereco: 'Rua caroá 1157, Conjunto Tamandaré, 1234 - Centro, Fortaleza - CE',
-    end: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5629.774272843002!2d-38.522091670582746!3d-3.8420242636841055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c75035d103822b%3A0xb0aa164c1ad2014d!2sAv.%20Castelo%20de%20Castro%2C%202282%20-%20Jangurussu%2C%20Fortaleza%20-%20CE%2C%2060870-066!5e0!3m2!1spt-BR!2sbr!4v1747428758693!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"'
+    end: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.8646610621213!2d-38.5189331456577!3d-3.8392164980673007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7502ff4cd9403%3A0xe2e6a9802b96ac24!2sR.%20Caroa%2C%201157%20-%20Jangurussu%2C%20Fortaleza%20-%20CE%2C%2060865-350!5e0!3m2!1spt-BR!2sbr!4v1747426312775!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"'
 
   },
 ])
